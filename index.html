@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#132019" />
+    <title>小小植物店 / LITTLE LEAF SHOP</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <header class="topbar"><div class="brand-lockup"><span class="brand-mark"><i></i><i></i><i></i></span><span class="brand-name">LITTLE / LEAF</span></div><div class="topbar-note"><span class="status-dot"></span> SHOP OPEN / 08:10</div></header>
+      <section class="game-layout" aria-label="小小植物店游戏">
+        <aside class="intro-panel"><p class="eyebrow">GREENHOUSE LOG / DAY 01</p><h1>照顾好<br /><em>每一片叶子。</em></h1><p class="intro-copy">你继承了一家小小植物店。听懂顾客的心情，把最合适的植物交给他们。</p><div class="brief-list"><div><span>SHOP GOAL</span><strong>营业 7 天</strong><small>赚金币，提升口碑，别让植物渴坏</small></div><div><span>PLANT LANGUAGE</span><strong>植物也有性格</strong><small>阳光、耐心和一点点水会让它们成长</small></div></div><div class="legend"><i class="legend-dot leaf-dot"></i>成长 <i class="legend-dot coin-dot"></i>金币 <i class="legend-dot heart-dot"></i>口碑</div></aside>
+        <section class="game-card"><div class="game-card-head"><div class="score-block"><span class="metric-label">OPEN DAY</span><strong id="dayText">01</strong><small>/ 07</small></div><div class="game-state" id="stateLabel"><span class="state-pip"></span> CLOSED</div><div class="score-block score-block-right"><span class="metric-label">COINS</span><strong id="coinText">018</strong></div></div><div class="stat-strip"><div><span>WATER</span><strong id="waterText">06</strong></div><div><span>PLANTS</span><strong id="plantText">08</strong></div><div><span>REPUTATION</span><strong id="repText">42</strong></div><div><span>WEATHER</span><strong id="weatherText">SUNNY</strong></div></div><div class="scene-wrap"><canvas id="gameCanvas" width="960" height="390" aria-label="植物店温室场景"></canvas><div class="scene-label"><span>GREENHOUSE 03</span><span id="clockText">08:10 AM</span></div></div><div class="event-card"><div class="event-kicker" id="eventKicker">CUSTOMER 01 / MORNING</div><h2 id="eventTitle">今天的第一位客人来了。</h2><p id="eventCopy">她想带走一株能让房间变得安静的植物。</p><div class="choice-grid" id="choiceGrid"></div></div><div class="game-controls"><button class="secondary-button" id="pauseButton" disabled><span>Ⅱ</span>暂停</button><button class="secondary-button" id="restartButton"><span>↻</span>重新开店</button></div></section>
+      </section>
+      <footer class="footer-bar"><span>WATER. WAIT. GROW.</span><span>© 2026 LITTLE LEAF SHOP</span><span>OWNER ID 03</span></footer>
+    </main><script src="script.js"></script>
+  </body>
+</html>
